@@ -1,25 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-internal class Program 
+﻿internal class Program 
 {
     private static void Main(string[] args)
     {
-        Console.Write("Cac kieu du lieu trong c# : ");
-        const int a = 3737823;
-            Console.WriteLine("Kieu du lieu int:  " +a );
-        const long b = 98888;
-            Console.WriteLine("Kieu du lieu long:  " +b );
-        const float c = -330000;
-            Console.WriteLine("Kieu du lieu float:  " +c );
-        const double d = -32222211;
-            Console.WriteLine("Kieu du lieu double: " +d );
-        const decimal e = -2221;
-            Console.WriteLine("Kieu du lieu decimal: " +e );
-        const bool f = true;
-            Console.WriteLine("Dap an la : " +f );
-        const char g = 'g';
-            Console.WriteLine("ky tu la :" +g );
-        const string h = "Chu Van Hiep 2021052050";
-            Console.WriteLine("Ten va msv cua em la :" +h );
+        Console.WriteLine("Nhap vao hai so ma ban can tinh : ");
+        int a,b;
+        System.Console.Write("a = ");
+        a = Convert.ToInt32(Console.ReadLine());
+        System.Console.Write("b = ");
+        b = Convert.ToInt32(Console.ReadLine());
+        System.Console.WriteLine("Hieu cua 2 so la : {0} - {1} = {2} ",a,b,a-b);
+        System.Console.WriteLine("Tich cua 2 so la : {0} * {1} = {2} ",a,b,a*b);
+        System.Console.WriteLine("Thuong cua 2 so la : {0} / {1} = {2} ",a,b,a/b);
+        System.Console.WriteLine("So du cua 2 so la : {0} % {1} = {2} ",a,b, (a - b * (a / b)));
     }
 
 
