@@ -1,7 +1,7 @@
 ﻿using NewApp.Models;
 
-Person ps = new Person();
+Employee emp = new Employee();
 System.Console.WriteLine("Du lieu vua nhap la : ");
-ps.NhapThongTin();
-ps.HienThi();
+emp.NhapThongTin();
+emp.HienThi();
  
