@@ -1,6 +1,6 @@
 namespace NewApp.Models
 {
-    public class Employee
+    public class Employee : Person
     {
         public string EmployeeID { get; set;}
         public string FullName { get; set;}
@@ -10,10 +10,6 @@ namespace NewApp.Models
         {
             System.Console.Write("EmployeeID = ");
             EmployeeID = Console.ReadLine();
-            System.Console.Write("Full name = ");
-             FullName = Console.ReadLine();
-            System.Console.Write("Age = ");
-            Age = Convert.ToInt32(Console.ReadLine()); 
              System.Console.Write("Luong = ");
             Luong = Convert.ToInt32(Console.ReadLine()) ;          
         }
