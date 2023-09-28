@@ -2,24 +2,31 @@
 public class Program{
     public static void Main(string[] args)
     {     
+        Person[] ps = new Person[3];
+    for(int i = 0; i < ps.Length; i++)
+    {
+        Person std = new Person ();
+        System.Console.Write("Nhap phan tu thu {0}: ", i);
+        int a = Convert.ToInt32(Console.ReadLine());
+        ps[i] = std;
+        System.Console.WriteLine();
+    }
 
 
 
-        Employee emp = new Employee();
+
+
+
+
+
+
+
+
+
+       /*  Employee emp = new Employee();
         System.Console.WriteLine("hay nhap du lieu : ");
         emp.Nhap();
-        emp.Xuat();
-
-
-
-
-
-
-
-
-
-
-
+        emp.Xuat(); */
 
 
 
