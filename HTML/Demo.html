@@ -11,25 +11,16 @@
     <h5 ><mark>Khoa công nghệ thông tin</mark></h5>
 
     
-    <p style="background-image: url('img_girl.jpg');">
+    <picture>
+      <source media="(min-width: 650px)" srcset="img_food.jpg">
+      <source media="(min-width: 465px)" srcset="img_car.jpg">
+      <img src="img_girl.jpg">
+    </picture>
+    <picture>
+      <source srcset="img_avatar.png">
+      <source srcset="img_girl.jpg">
+      <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+    </picture>
     
-      <style>
-        p {
-          background-image: url('img_girl.jpg');
-        }
-        </style>
-        <style>
-          body {
-            background-image: url('img_girl.jpg');
-          }
-          </style>
-          <style>
-            body {
-              background-image: url('img_girl.jpg');
-              background-repeat: no-repeat;
-              background-attachment: fixed;
-              background-size: cover;
-            }
-            </style>
 
 </html>
