@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PTPMQLL\\Object\\NewApp\\NewApp.csproj": {}
+    "d:\\PTPMQLL\\Object\\NewApp\\NewApp.csproj": {}
   },
   "projects": {
-    "D:\\PTPMQLL\\Object\\NewApp\\NewApp.csproj": {
+    "d:\\PTPMQLL\\Object\\NewApp\\NewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PTPMQLL\\Object\\NewApp\\NewApp.csproj",
+        "projectUniqueName": "d:\\PTPMQLL\\Object\\NewApp\\NewApp.csproj",
         "projectName": "NewApp",
-        "projectPath": "D:\\PTPMQLL\\Object\\NewApp\\NewApp.csproj",
+        "projectPath": "d:\\PTPMQLL\\Object\\NewApp\\NewApp.csproj",
         "packagesPath": "C:\\Users\\HIEP\\.nuget\\packages\\",
-        "outputPath": "D:\\PTPMQLL\\Object\\NewApp\\obj\\",
+        "outputPath": "d:\\PTPMQLL\\Object\\NewApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HIEP\\AppData\\Roaming\\NuGet\\NuGet.Config"
