@@ -5,9 +5,6 @@
   <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="John Doe">
     <title>INTRODUCE</title>
 </head>
 <body >
@@ -16,12 +13,29 @@
     <h5 ><mark>Khoa công nghệ thông tin</mark></h5>
     
     
-    <iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
-</iframe>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
-</iframe>
+    <h1>HTML Geolocation</h1>
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
         
 </body>
 
