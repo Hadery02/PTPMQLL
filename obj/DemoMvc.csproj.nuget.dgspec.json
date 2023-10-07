@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\PTPMQLL\\DemoMvc\\DemoMvc.csproj": {}
+    "D:\\PTPMQLL\\DemoMvc\\DemoMvc.csproj": {}
   },
   "projects": {
-    "d:\\PTPMQLL\\DemoMvc\\DemoMvc.csproj": {
+    "D:\\PTPMQLL\\DemoMvc\\DemoMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\PTPMQLL\\DemoMvc\\DemoMvc.csproj",
+        "projectUniqueName": "D:\\PTPMQLL\\DemoMvc\\DemoMvc.csproj",
         "projectName": "DemoMvc",
-        "projectPath": "d:\\PTPMQLL\\DemoMvc\\DemoMvc.csproj",
+        "projectPath": "D:\\PTPMQLL\\DemoMvc\\DemoMvc.csproj",
         "packagesPath": "C:\\Users\\HIEP\\.nuget\\packages\\",
-        "outputPath": "d:\\PTPMQLL\\DemoMvc\\obj\\",
+        "outputPath": "D:\\PTPMQLL\\DemoMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HIEP\\AppData\\Roaming\\NuGet\\NuGet.Config"
