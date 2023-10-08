@@ -10,11 +10,11 @@ public class PersonController : Controller
         return View();
     }
      [HttpPost]
-     public IActionResult Index(string FullName,float HeSoLuong,int PhuCap,int Luong)
+     public IActionResult Index(string FullName,float HeSoLuong,int PhuCap,int LuongCB)
      {
-        string person = "Luong cua " + FullName + " la :";
-        float TinhLuong = Luong + HeSoLuong + PhuCap ;
-        ViewBag.Nhap = TinhLuong;
+         float TinhLuong = LuongCB + HeSoLuong + PhuCap ;
+        string person = "Luong cua " + FullName + " la :" + TinhLuong;
+        ViewBag.Nhap = person;
         return View();
      }
 }
