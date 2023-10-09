@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <meta charset="UTF-8">~
+    <title>INTRODUCE</title>
+</head>
+<body >
+    <h1 ><b>Chu Văn Hiệp - 2021050250</b></h1>
+    <h3>Môn phát triển phần mềm quản lý</h3>
+    <h5 ><mark>Khoa công nghệ thông tin</mark></h5>
+    
+    
+    <p>Count numbers: <output id="result"></output></p>
+<button onclick="startWorker()">Start Worker</button> 
+<button onclick="stopWorker()">Stop Worker</button>
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
+
+<script>
+var w;
+
+function startWorker() {
+  if(typeof(Worker) !== "undefined") {
+    if(typeof(w) == "undefined") {
+      w = new Worker("demo_workers.js");
+    }
+    w.onmessage = function(event) {
+      document.getElementById("result").innerHTML = event.data;
+    };
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+  }
+}
+
+function stopWorker() { 
+  w.terminate();
+  w = undefined;
+}
+</script>
+      </head>
+      <body>
+      
+      <p>Drag the W3Schools image into the rectangle:</p>
+      
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <br>
+      <img id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">
+</body>
+
+</html>
