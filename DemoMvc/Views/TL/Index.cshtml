@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h2>Nhập các giá trị :</h2>
+    <form asp-action="Index">
+        Ho va ten: <input type="text" name="FullName" placeholder="HoTen" /><br>
+        Luong co ban: <input type="text" name="LuongCB" placeholder="LuongCoBan" /><br>
+        He so luong: <input type="text" name="HeSoLuong" placeholder="HeSoLuong" /><br>
+        Phu cap: <input type="text" name="PhuCap" placeholder="PhuCap" /><br>
+        <input type="submit" name="Tinh" value="Tinh" />
+    </form>
+    <h1>@ViewBag.thongbao</h1>
+</body>
+
+</html>
