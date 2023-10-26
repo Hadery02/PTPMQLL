@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0oYl9+G6hSmhysArJgKk91ec14EUcu9NoJnRAumaJVI=",
+  "Hash": "18Y4q4eF8FWlLMTrqFR5J2iApqhEjI7B7cAHYlCU3x4=",
   "Source": "DemoMvc",
   "BasePath": "_content/DemoMvc",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\PTPMQLL\\DemoMvc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DemoMvc.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\PTPMQLL\\DemoMvc\\wwwroot\\css\\css.css",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PTPMQLL\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "css/css.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\css.css"
     },
     {
       "Identity": "D:\\PTPMQLL\\DemoMvc\\wwwroot\\css\\site.css",
