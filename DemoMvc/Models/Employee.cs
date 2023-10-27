@@ -1,3 +1,4 @@
+using DemoMvc.Models;
 public class Employee : Person
 {
     //2021050250- Chu Van Hiep
