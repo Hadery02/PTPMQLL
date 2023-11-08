@@ -1,6 +1,6 @@
 using System.Diagnostics.Contracts;
 using System.Security.Cryptography.X509Certificates;
-using DemoMVC.Controllers;
+using DemoMvc.Controllers;
 using Microsoft.AspNetCore.Mvc;
 //2021050250-Chu Văn Hiệp
 public class PTBac2Controller : Controller

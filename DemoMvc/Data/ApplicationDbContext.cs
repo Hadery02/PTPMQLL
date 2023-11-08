@@ -8,5 +8,6 @@ namespace DemoMvc.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {}
         public DbSet<Person> Person { get ; set;}
+        public DbSet<DemoMvc.Models.Employee> Employee { get; set; } = default!;
     }
 }
