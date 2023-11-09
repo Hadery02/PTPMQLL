@@ -9,11 +9,11 @@ public class Person
      //2021050250- Chu Van Hiep
 
      [Key]
-     [Required(ErrorMessage ="vui long nhap thong tin")]
+     
     public string? PersonId { get; set; }
-    [Required(ErrorMessage ="vui long nhap thong tin")]
+
     public string?  FullName { get; set; }
-    [Required(ErrorMessage ="vui long nhap thong tin")]
+  
     public string? Address { get; set; }
     
 }}
