@@ -280,3 +280,7 @@ D:\PTPMQLL\MVC\obj\Debug\net8.0\refint\MVC.dll
 D:\PTPMQLL\MVC\obj\Debug\net8.0\MVC.pdb
 D:\PTPMQLL\MVC\obj\Debug\net8.0\MVC.genruntimeconfig.cache
 D:\PTPMQLL\MVC\obj\Debug\net8.0\ref\MVC.dll
+D:\PTPMQLL\MVC\obj\Debug\net8.0\MVC.MvcApplicationPartsAssemblyInfo.cs
+D:\PTPMQLL\MVC\bin\Debug\net8.0\JetBrains.Annotations.dll
+D:\PTPMQLL\MVC\bin\Debug\net8.0\X.PagedList.dll
+D:\PTPMQLL\MVC\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
