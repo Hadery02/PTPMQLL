@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DemoMvc.Models
 {
-     [Table("Persons")]
+     [Table("Personss")]
 public class Person
 {
      //2021050250- Chu Van Hiep
